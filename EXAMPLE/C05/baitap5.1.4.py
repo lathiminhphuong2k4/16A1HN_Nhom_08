@@ -4,6 +4,6 @@ print("Nhập số đo 3 cạnh của tam giác ABC")
 a = eval(input(' số đo cạnh a = '))
 b = eval(input(' số đo cạnh b = '))
 c = eval(input(' số đo cạnh c = '))
-p = (a+b+c)/2
+p = (a+b+c)/2    #công thức tính nửa chu vi
 S = math.sqrt(p*(p-a)*(p-b)*(p-c))
 print("Diện tích tam giác ABC đã cho là: ", S)
